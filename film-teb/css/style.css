@@ -1,0 +1,130 @@
+table, th, td {
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    /*background-color: #116d82;*/
+    margin-left: auto;
+    margin-right: auto;	
+    
+}
+table.t1 {
+    border-spacing: 20px 5px;
+    border-collapse: separate;
+    
+}
+th, td {
+    padding: 5px;
+    border-style: dotted;
+    background-color: #116d82;
+    border: 1px solid black; 
+}
+th {
+    color: red;
+}
+body {
+    font-family: "Arial";
+    text-align: center;
+    background-color: lightgray;
+    color: maroon;
+    
+}
+.centr {
+   text-align: center; 
+}
+.img {
+    width: 400px; 
+    height: 266px;
+}
+
+
+.inter {
+    line-height: 30px;
+    
+}
+h3 {
+    text-shadow: 3px 3px grey;
+}
+dl > dt {
+    color: white;
+}
+dt:first-letter {
+  font-weight: bold;
+  font-style: italic;  
+}
+h1 {
+    font-size: 30px;
+}
+.link:link {
+    color: darkblue;
+}
+.link:visited {
+    color: red;
+}
+.link:hover {
+    font-size: 20px;
+}
+.link:active {
+    color: white;
+}
+.shrek {
+    text-transform: uppercase;
+}
+a[href*="youtube.com"] {
+    font-weight: bold;
+}
+.dot {
+    color: white; 
+    
+}
+.img2 {
+    width: 200px;
+    height: 285px;
+}
+.banner {
+    margin-left: auto;
+    margin-right: auto;	
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.left {
+    text-align: left;
+}
+.list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    /*komentarz*/
+}
+p {
+    text-indent: 20px;
+    background-color: beige;
+    font-family: "Courier New";
+    cursor: url("../img/cursor.png"), pointer;
+    
+}
+.img3 {
+    width: 100px;
+    height: 144px;
+}
+ul.imgm {
+    list-style-image: url("../img/film.png");
+    list-style-position: inside;
+    padding: 0px;
+}
+.rome {
+    list-style-position: inside;
+    padding: 0px;
+}
+ul.imgd {
+    list-style-image: url("../img/director.png");
+    list-style-position: inside;
+    padding: 0px;
+}
+a[href*="about.html"] {
+    cursor: crosshair;
+}
+
+td.even {
+    background-color: #88B5C0;
+}
